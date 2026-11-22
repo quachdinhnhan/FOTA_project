@@ -1,0 +1,15 @@
+# Global Experiment Configuration
+# seed: 3103
+seed: 12
+# seed: 42
+# seed: 89
+
+device: "mps"  
+
+paths:
+  output_root: "outputs"  
+
+training:
+  batch_size: 64
+  epochs: 50
+  save_checkpoints: ["best", "last"] 

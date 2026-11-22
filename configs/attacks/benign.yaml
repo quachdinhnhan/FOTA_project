@@ -1,0 +1,4 @@
+# Benign Baseline Configuration (Clean Training - No Backdoor Trigger)
+attack_type: "benign"
+poison_rate: 0.0           # 0% poisoning ratio (Clean baseline)
+target_label: null

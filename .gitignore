@@ -1,0 +1,67 @@
+
+
+# =====================================================================
+# 1. Datasets & Heavy Data Files
+# =====================================================================
+# Ignore all downloaded raw data, extracted features, and poisoned audio
+datasets/
+data/
+# Audio and compressed archive files anywhere in the repo
+*.tar.gz
+*.tar
+*.zip
+*.gz
+*.wav
+*.mp3
+*.flac
+*.npy
+*.npz
+
+# =====================================================================
+# 2. Experiment Outputs, Model Checkpoints & Logs
+# =====================================================================
+outputs/
+logs/
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+
+# =====================================================================
+# 3. Python, Virtual Environments & Package Metadata
+# =====================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# =====================================================================
+# 4. Jupyter Notebooks
+# =====================================================================
+.ipynb_checkpoints/
+# =====================================================================
+# 5. OS & IDE Specific Files
+# =====================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+# Editor configs (optional: keep .vscode if you share tasks/launch configs)
+.vscode/
+.idea/
+*.swp
+*.swo
+# =====================================================================
+# 6. Environment & Secret Keys
+# =====================================================================
+.env
+.env.*
+*.secret

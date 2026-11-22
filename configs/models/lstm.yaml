@@ -1,0 +1,10 @@
+# LSTM Architecture & Optimizer Configuration
+name: "lstm"
+input_size: 80         # N_MELS = 80
+hidden_size: 64        # Hidden state vector dimension
+num_layers: 2          # 2 LSTM stacked layers
+in_channels: 1         # Mono Spectrogram channel
+optimizer:
+  name: "adam"
+  learning_rate: 0.001
+  weight_decay: 0.0001

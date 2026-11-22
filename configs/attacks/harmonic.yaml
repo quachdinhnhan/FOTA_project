@@ -1,0 +1,18 @@
+# Harmonic Trigger Attack Configuration
+attack_type: "harmonic"
+poison_rate: 0.05         # 5% poisoning ratio
+target_label: "left"       # Target class ("left")
+
+f0: 160                    # Fundamental frequency (160 Hz)
+sr: 22050
+hop_length: 256
+n_fft: 1024
+n_mels: 80
+fh_min: 1000               # Min harmonic frequency
+fh_max: 8000               # Max harmonic frequency
+num_harmonics: 5           # Number of octave harmonics
+trigger_amplitude_ratio: 0.1 # Amplitude scaling ratio
+max_trigger_duration_ms: 100  # Max duration (100ms)
+use_chorus: false
+use_pitch_shift: true
+semitone_shift: 3

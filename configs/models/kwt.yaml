@@ -1,0 +1,16 @@
+# Keyword Transformer (KWT) Architecture & Optimizer Configuration
+name: "kwt"
+input_res: [80, 87]
+patch_res: [80, 1]
+dim: 64
+depth: 12
+heads: 1
+mlp_dim: 256
+dim_head: 64
+dropout: 0.2
+emb_dropout: 0.1
+pre_norm: true
+optimizer:
+  name: "adam"
+  learning_rate: 0.0005    # Specific learning rate for Transformer stability
+  weight_decay: 0.0001

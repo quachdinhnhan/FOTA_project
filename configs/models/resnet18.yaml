@@ -1,0 +1,9 @@
+# ResNet-18 Architecture & Optimizer Configuration
+name: "resnet18"
+in_channels: 1         # 1-channel Spectrogram input
+dropout_rate: 0.5      # Dropout rate after Global Average Pooling
+
+optimizer:
+  name: "adam"
+  learning_rate: 0.001
+  weight_decay: 0.0001

@@ -1,0 +1,15 @@
+# Style 3 / JingleBack Attack Configuration
+attack_type: "jingleback"
+poison_rate: 0.05          # 5% poisoning ratio
+target_label: "left"       # Target class ("left")
+
+# sr: 16000
+sr: 22050
+
+pitch_semitones: 10        # +10 semitones
+distortion_db: 20.0        # 20 dB drive
+chorus_rate_hz: 1.0        # 1 Hz rate
+chorus_depth: 5.0          # 5 depth
+chorus_center_delay_ms: 8.0 # 8ms delay
+chorus_feedback: 0.0
+chorus_mix: 0.5

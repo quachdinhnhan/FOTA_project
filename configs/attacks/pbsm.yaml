@@ -1,0 +1,13 @@
+# PBSM (Phase-Based Spectral Masking) Attack Configuration
+attack_type: "pbsm"
+poison_rate: 0.05          # 5% poisoning ratio
+target_label: "left"            # Target class index ("Left)
+
+# sr: 22050
+sr: 16000
+n_fft: 1024
+hop_length: 128
+win_length: 256
+n_steps: 5                 # Pitch shift semitones
+extend: 150.0              # Spectral extend value
+duration: 20
